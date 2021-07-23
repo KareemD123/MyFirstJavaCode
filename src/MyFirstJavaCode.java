@@ -9,24 +9,29 @@ public class MyFirstJavaCode {
         byte age = 30, temp = 20;
         Date now = new Date();
         now.getTime();
-        System.out.println(now);
+//        System.out.println(now);
 
-        byte x = 1;
+//        byte x = 1;
 
 
         Point point1 = new Point();
         point1.y = 1;
         Point point2 = point1;
         point1.x = 2;
-        System.out.println(point2);
+//        System.out.println(point2);
 
 
         String message = "Hellooooo Java" + "!!!";
         boolean doesItEndWith = message.endsWith("!!");
-        System.out.println(message.length());
+//        System.out.println(message.length());
 
         final float pi = 3.14F;
 //        pi = 1;
+
+    double result = 10 / 3;
+    int x = 1;
+    int y = x++;
+    System.out.println(y);
 
 
 
@@ -36,9 +41,9 @@ public class MyFirstJavaCode {
         float price = 10.99F;
         char letter = 'A';
         boolean isEligible = false;
-        System.out.println("Hello World");
-        System.out.println(age);
-        System.out.println(viewsCount);
+//        System.out.println("Hello World");
+//        System.out.println(age);
+//        System.out.println(viewsCount);
 
     }
 }
