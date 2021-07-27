@@ -4,14 +4,30 @@ import java.awt.*;
 import java.util.Date;
 import javax.swing.JFrame;
 
-
 public class MyFirstJavaCode {
-    public static void main(String[] args) {
 
-        JFrame myFrame = new JFrame("MY FIRST WINDOW");
-        myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        myFrame.setVisible(true);
+    public static void main(String[] args) {
+        System.out.println("Hello World...!!!");
+        double z = Math.max(2, 5);
+        double y = Math.sqrt(4);
+        String name = "Bro";
+        boolean result = name.equals("Hello");
+        System.out.println(result);
+//        JFrame myFrame = new JFrame("MY FIRST WINDOW");
+//        myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        myFrame.setVisible(true);
+
+        Rectangle recc = new Rectangle();
+        recc.setLength(10.5);
+        recc.setWidth(5);
+
+        System.out.println(recc.getArea());
     }
+}
+
+
+
+
 
 //        byte age = 30, temp = 20;
 //        Date now = new Date();
@@ -41,4 +57,16 @@ public class MyFirstJavaCode {
 ////        System.out.println("Hello World");
 ////        System.out.println(age);
 ////        System.out.println(viewsCount);
-}
+
+//        static void extra(args){
+//            println('Hello World...!!!');
+//            double z = Math.max(2, 5);
+//            double y = Math.sqrt(4);
+//            Strng name = "Bro";
+//            boolean result = name.equals("Hello");
+//            System.out.println(result);
+//
+//        }
+
+
+
